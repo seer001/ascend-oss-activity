@@ -1,0 +1,8 @@
+mine_stderr.log
+*.internal.md
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/

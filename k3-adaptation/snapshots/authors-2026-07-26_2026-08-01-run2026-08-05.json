@@ -1,0 +1,1277 @@
+{
+  "run_date": "2026-08-05",
+  "query": "Kimi-K3",
+  "search_limit": 300,
+  "window_created": "2026-07-26..2026-08-01",
+  "flag_domains": [
+    "moonshot.cn",
+    "moonshot.ai",
+    "msh.team",
+    "kimi.com",
+    "kimi.team"
+  ],
+  "moonshotai_public_member_count": 2,
+  "privacy_note": "Author logins and per-PR email domains are collected for aggregation but not published. Rows retain public work metadata only; domains appear in one aggregate histogram.",
+  "repos": {
+    "vllm-project/vllm": {
+      "pr_count": 99,
+      "limit_reached": false,
+      "prs": [
+        {
+          "number": 49876,
+          "created_at": "2026-07-26T12:30:00Z",
+          "title": "fix: handle Inkling non-reasoning responses",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 49885,
+          "created_at": "2026-07-26T15:12:03Z",
+          "title": "[Feature][Frontend] Make strict tool calling an explicit override",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 49895,
+          "created_at": "2026-07-26T17:49:00Z",
+          "title": "[CI] Add kimi and k3 auto-labeling rules",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 49999,
+          "created_at": "2026-07-27T15:17:16Z",
+          "title": "[New model] Kimi-K3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50000,
+          "created_at": "2026-07-27T15:19:13Z",
+          "title": "[New model] Kimi K3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50054,
+          "created_at": "2026-07-27T23:27:35Z",
+          "title": "perf(rocm): fuse Kimi-K3 KDA decode gate",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50055,
+          "created_at": "2026-07-27T23:39:00Z",
+          "title": "[Kimi-K3] DCP support",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50063,
+          "created_at": "2026-07-28T01:26:19Z",
+          "title": "[Kimi-K3] MoRIIO KV transfer of hybrid mamba/KDA (conv+ssm) recurrent state (READ + WRITE)",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50076,
+          "created_at": "2026-07-28T03:43:21Z",
+          "title": "[Kimi K3] Add EPLB support",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50080,
+          "created_at": "2026-07-28T04:15:30Z",
+          "title": "[Bugfix][Spec Decode] Scope MTP completeness checks for Kimi K3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50082,
+          "created_at": "2026-07-28T04:27:24Z",
+          "title": "[Bugfix] Add Kimi K3 MoE support to benchmark_moe.py",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50088,
+          "created_at": "2026-07-28T05:43:31Z",
+          "title": "[MoE] Latent-MoE runner, fused MoE tail, SituGLU activation and single-group top-k routing",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50089,
+          "created_at": "2026-07-28T05:48:09Z",
+          "title": "[Model] Add Kimi K3 support: model files and kernels [1/N]",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50090,
+          "created_at": "2026-07-28T06:05:12Z",
+          "title": "[Kimi-K3] Add AttnRes kernels",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50093,
+          "created_at": "2026-07-28T06:30:45Z",
+          "title": "[Model] Add Kimi K3 support: Python frontend [2/2]",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50099,
+          "created_at": "2026-07-28T07:24:10Z",
+          "title": "[Kimi K3] Add KDA kernels",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50104,
+          "created_at": "2026-07-28T07:41:14Z",
+          "title": "[Model] Add Kimi K3 support: Rust frontend [1/2]",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50131,
+          "created_at": "2026-07-28T10:47:19Z",
+          "title": "[Bugfix] Add missing `vllm/models/kimi_k3/__init__.py`",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50138,
+          "created_at": "2026-07-28T11:52:24Z",
+          "title": "Codex/kimi k3 dspark pp",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50162,
+          "created_at": "2026-07-28T17:25:57Z",
+          "title": "[ROCm][Kimi-K3] Model enablement - aiter moe environment variable cleanup",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50181,
+          "created_at": "2026-07-28T20:38:07Z",
+          "title": "[Bugfix][MLA] Fix fp8 KV cache prefill query quantization selection for Kimi-K3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50183,
+          "created_at": "2026-07-28T21:06:00Z",
+          "title": "[Bugfix][Spec Decode] Fix NaN handling in rejection sampler tl.argmax",
+          "model_bot_attribution_count": 1
+        },
+        {
+          "number": 50185,
+          "created_at": "2026-07-28T21:53:32Z",
+          "title": "attn_res kernel latency improvements",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50228,
+          "created_at": "2026-07-29T08:28:25Z",
+          "title": "[Bugfix][Kimi K3] Fix message-level tools, response_format passthroug…",
+          "model_bot_attribution_count": 1
+        },
+        {
+          "number": 50229,
+          "created_at": "2026-07-29T08:37:04Z",
+          "title": "[Parser] Migrate Kimi K3 to Parser Engine",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50242,
+          "created_at": "2026-07-29T10:39:25Z",
+          "title": "K3 DSpark AR fusion",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50243,
+          "created_at": "2026-07-29T10:40:00Z",
+          "title": "[Build] Fix CUDA release wheel builds",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50262,
+          "created_at": "2026-07-29T12:22:49Z",
+          "title": "[ROCm][CI] Fix Kimi K3 KDA on ROCm",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50266,
+          "created_at": "2026-07-29T13:18:08Z",
+          "title": "[CI] KimiLinear PD in nightlies ",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50286,
+          "created_at": "2026-07-29T15:17:27Z",
+          "title": "perf(rocm): fuse Kimi-K3 B1 pre-route and shared-expert projections",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50289,
+          "created_at": "2026-07-29T16:14:35Z",
+          "title": "[Rust Frontend] Add standalone Rust renderer",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50291,
+          "created_at": "2026-07-29T16:23:26Z",
+          "title": "[Bugfix] Preserve truncated Kimi K3 reasoning",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50303,
+          "created_at": "2026-07-29T18:01:52Z",
+          "title": "[Bugfix] Stop the Granite reasoning marker leaking into streamed reasoning",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50304,
+          "created_at": "2026-07-29T18:37:00Z",
+          "title": "[CI][ROCm] Fix AMD nightly distributed regressions",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50319,
+          "created_at": "2026-07-29T20:21:10Z",
+          "title": "[ROCm][Kimi-K3] Enable gfx942 serving",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50327,
+          "created_at": "2026-07-29T21:15:54Z",
+          "title": "[ModelRunnerV2] Fix scalar Mamba state update with int32 mappings",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50338,
+          "created_at": "2026-07-29T22:55:36Z",
+          "title": "[Bugfix][MoE] Write Humming results to the supplied output buffer",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50363,
+          "created_at": "2026-07-30T02:39:04Z",
+          "title": "[K3] Enable DS align state copies with speculative decoding",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50364,
+          "created_at": "2026-07-30T02:40:59Z",
+          "title": "[ROCm] Clean up KDA",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50366,
+          "created_at": "2026-07-30T02:48:12Z",
+          "title": "DCP: consume owner-sharded Top-K candidates through symmetric memory",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50367,
+          "created_at": "2026-07-30T02:54:47Z",
+          "title": "[Bugfix][Kimi K3] Stop streaming hold-back from leaking template markers",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50371,
+          "created_at": "2026-07-30T03:30:46Z",
+          "title": "[ROCm] Enable 12-head MLA persistent decode",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50379,
+          "created_at": "2026-07-30T04:35:30Z",
+          "title": "[Spec Decode][Core] Run the Kimi K3 DFlash drafter with prefix caching enabled",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50383,
+          "created_at": "2026-07-30T05:11:57Z",
+          "title": "Shard the K3 Latent-MoE up-projection on large batches",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50388,
+          "created_at": "2026-07-30T05:51:10Z",
+          "title": "[Core] Fix ValueError on KV load failure with a hybrid KV cache",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50404,
+          "created_at": "2026-07-30T08:09:54Z",
+          "title": "[Model] Fix Kimi-K3 MLA with disabled context parallelism",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50409,
+          "created_at": "2026-07-30T08:49:05Z",
+          "title": "[Bugfix] Stop mamba align prefill at the replay boundary",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50418,
+          "created_at": "2026-07-30T09:18:42Z",
+          "title": "[Reload] Probe dummy load manifests",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50420,
+          "created_at": "2026-07-30T10:05:57Z",
+          "title": "[Frontend][Bugfix] Use default tool call IDs for Kimi K3 for conversation-level uniqueness",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50447,
+          "created_at": "2026-07-30T15:19:47Z",
+          "title": "[XPU][CI] skip kimi-k3 test",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50457,
+          "created_at": "2026-07-30T17:28:17Z",
+          "title": "[Spec Decode][Core] Run an all-sliding DFlash drafter with prefix caching enabled",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50458,
+          "created_at": "2026-07-30T18:08:27Z",
+          "title": "[Kimi K3 Bug] Fix deepgemm support for kimi k3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50469,
+          "created_at": "2026-07-30T19:41:20Z",
+          "title": "[K3 Perf] Optimize k3 addmm kernel using inplace operator, 10%~40% kernel performance improvement",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50476,
+          "created_at": "2026-07-30T20:59:35Z",
+          "title": "[ROCm][MLA] Mask the AITER MLA small-head verify flatten causally",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50484,
+          "created_at": "2026-07-30T21:59:28Z",
+          "title": "[Kimi-K3] DCP support",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50487,
+          "created_at": "2026-07-30T22:35:57Z",
+          "title": "[Model][Spec Decode] Tap the pre-norm AttnRes mixture as the Kimi K3 DFlash aux state",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50490,
+          "created_at": "2026-07-30T22:51:24Z",
+          "title": "[CI] Un-gate and unify CUDA/ROCm custom-all-reduce + KDA tests broken by Kimi K3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50493,
+          "created_at": "2026-07-30T23:38:15Z",
+          "title": "[Kimi-K3] support DCP partial prefix cache hit",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50498,
+          "created_at": "2026-07-31T01:12:52Z",
+          "title": "(feat): optionally disable lookup on PD decode",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50500,
+          "created_at": "2026-07-31T01:30:57Z",
+          "title": "[Compressed-Tensors] Support Kimi-K3 quantized models",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50506,
+          "created_at": "2026-07-31T02:47:21Z",
+          "title": "[Hybrid KV Cache][Kimi K3] Retain two committed decode checkpoints",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50510,
+          "created_at": "2026-07-31T03:09:19Z",
+          "title": "[MoE][Humming] Support SiTU activation for Kimi-K3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50514,
+          "created_at": "2026-07-31T03:29:39Z",
+          "title": "Feat/spec decode under pipeline parallel",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50516,
+          "created_at": "2026-07-31T03:57:44Z",
+          "title": "[ROCm][CI] Fall back to lossless Kimi K3 MXFP4 emulation on gfx942",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50540,
+          "created_at": "2026-07-31T07:01:37Z",
+          "title": "[Rust Frontend] Align tool rendering for Kimi K3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50543,
+          "created_at": "2026-07-31T07:23:24Z",
+          "title": "[Bugfix][Kimi K3] Fix chat rendering parity and response_format wiring",
+          "model_bot_attribution_count": 1
+        },
+        {
+          "number": 50551,
+          "created_at": "2026-07-31T08:45:33Z",
+          "title": "[Hybrid KV Cache][Kimi K3] SSM decode checkpoints for prefix caching",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50553,
+          "created_at": "2026-07-31T08:50:39Z",
+          "title": "[Kernel] Fuse SiTU activation + FP8 quant in persistent MoE kernel",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50554,
+          "created_at": "2026-07-31T08:59:11Z",
+          "title": "[Kimi-K3][ROCm] Fuse KDA upper-triangle zeroing",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50563,
+          "created_at": "2026-07-31T10:33:01Z",
+          "title": "[ROCm][Bugfix] Keep the MLA query in bf16 for AITER Gluon fp8 KV decode",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50567,
+          "created_at": "2026-07-31T11:01:29Z",
+          "title": "[Bugfix][Kimi-K3] Enforce packed rows and op availability in AttnRes dispatch",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50578,
+          "created_at": "2026-07-31T15:15:25Z",
+          "title": "[ROCm][MLA] Use asm decode for non-divisor small head counts",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50579,
+          "created_at": "2026-07-31T15:15:31Z",
+          "title": "[ROCm][MoE] Fix Kimi-K3 a8w4 MoE decode garbage by pinning fp8 stage-1 kernel",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50582,
+          "created_at": "2026-07-31T15:29:40Z",
+          "title": "[ROCm][Kimi-K3] aiter moe environment variable cleanup",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50583,
+          "created_at": "2026-07-31T15:39:40Z",
+          "title": "[Bugfix][Model] Kimi-K3: delegate FusedMoE padding to the selected quantization backend",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50592,
+          "created_at": "2026-07-31T16:26:50Z",
+          "title": "[Kimi-K3][AMD] Return KDA projection output directly",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50593,
+          "created_at": "2026-07-31T16:30:24Z",
+          "title": "[Kimi-K3][AMD] Fuse AttnRes state updates and norms",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50597,
+          "created_at": "2026-07-31T16:57:26Z",
+          "title": "[ROCm]Remove special-case SiTU support model-specific gating",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50613,
+          "created_at": "2026-07-31T18:38:44Z",
+          "title": "[Attention][MLA] Per-request scheduling for MLA chunked context",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50618,
+          "created_at": "2026-07-31T19:22:02Z",
+          "title": "[ROCm][Bugfix] Fix wvSplitK OOB reads on strided activations",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50619,
+          "created_at": "2026-07-31T19:40:47Z",
+          "title": "[ROCm][Perf] Fix Kimi-K3 DSpark FP8 MLA verification",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50625,
+          "created_at": "2026-07-31T20:57:38Z",
+          "title": "[Bugfix] Drop the -1 dcp_world_size sentinel in MLACommonImpl",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50627,
+          "created_at": "2026-07-31T21:13:51Z",
+          "title": "[Bugfix] Stream Kimi K3 tool-call arguments incrementally",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50628,
+          "created_at": "2026-07-31T21:22:08Z",
+          "title": "[Bugfix] [Rust Frontend] Stream Kimi K3 tool-call arguments incrementally",
+          "model_bot_attribution_count": 1
+        },
+        {
+          "number": 50634,
+          "created_at": "2026-07-31T22:59:05Z",
+          "title": "[ROCm][Perf] Fuse Kimi-K3 KDA decode gate",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50636,
+          "created_at": "2026-07-31T23:03:58Z",
+          "title": "[ROCm][Perf] Select wvSplitK only in measured-profitable gfx950 regions",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50637,
+          "created_at": "2026-07-31T23:04:23Z",
+          "title": "[ROCm][Perf] Fuse Kimi-K3 AttnRes with RMSNorm",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50647,
+          "created_at": "2026-08-01T02:39:20Z",
+          "title": "[Kimi K3] Add EPLB support",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50649,
+          "created_at": "2026-08-01T02:45:57Z",
+          "title": "[ROCm][Bugfix] Kimi-K3 Fix KDA NaN on mixed batches and racy autotune config",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50654,
+          "created_at": "2026-08-01T03:56:55Z",
+          "title": "[ROCm][Perf] Kimi-K3 Fused kernel for KDA decode",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50656,
+          "created_at": "2026-08-01T04:10:14Z",
+          "title": "[Kimi-K3] Add option to shard the shared expert instead of replicating",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50657,
+          "created_at": "2026-08-01T04:20:32Z",
+          "title": "[ROCm][Perf] Fuse and FP8-pack Kimi-K3 latent MoE output tail",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50658,
+          "created_at": "2026-08-01T06:10:06Z",
+          "title": "[Model][Kimi K3] Project DSpark aux states before SP all-gather",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50659,
+          "created_at": "2026-08-01T06:10:26Z",
+          "title": "[Kernel][Kimi K3] Fuse mixed-batch KDA boundary operations",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50663,
+          "created_at": "2026-08-01T08:37:18Z",
+          "title": "perf(rocm): prepack Kimi-K3 latent tail weights to FP8",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50664,
+          "created_at": "2026-08-01T08:37:28Z",
+          "title": "[ROCm][Perf] Fuse Kimi-K3 MLA output gate",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50665,
+          "created_at": "2026-08-01T08:37:37Z",
+          "title": "[ROCm][Perf] Fuse Kimi-K3 FP8 pre-route projections",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50666,
+          "created_at": "2026-08-01T08:39:14Z",
+          "title": "[ROCm][Perf] Dispatch Kimi-K3 KDA group64 projection",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 50675,
+          "created_at": "2026-08-01T10:26:29Z",
+          "title": "K3: Remove the communication from the first layer when SP is enabled.",
+          "model_bot_attribution_count": 0
+        }
+      ]
+    },
+    "sgl-project/sglang": {
+      "pr_count": 81,
+      "limit_reached": false,
+      "prs": [
+        {
+          "number": 32541,
+          "created_at": "2026-07-27T15:18:19Z",
+          "title": "[Kimi] Support kimi-k3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32542,
+          "created_at": "2026-07-27T15:24:00Z",
+          "title": "docs(cookbook): add the Kimi-K3 serving cookbook",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32544,
+          "created_at": "2026-07-27T15:29:46Z",
+          "title": "[NPU][Kimi] Support Kimi-K3 on NPU",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32545,
+          "created_at": "2026-07-27T15:36:21Z",
+          "title": "[Kimi-K3] Clone branch source in Docker images",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32546,
+          "created_at": "2026-07-27T15:42:45Z",
+          "title": "docs(cookbook): fix broken PD disaggregation anchor on Kimi-K3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32547,
+          "created_at": "2026-07-27T15:48:59Z",
+          "title": "docs: point Kimi-K3 references to public branch",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32563,
+          "created_at": "2026-07-27T18:40:43Z",
+          "title": "Fix S3 speculative draft loading",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32567,
+          "created_at": "2026-07-27T19:41:32Z",
+          "title": "fix kimi-k3 reasoning parser on elided think close",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32568,
+          "created_at": "2026-07-27T20:11:48Z",
+          "title": "[AMD] Add Kimi-K3 8-GPU MI35x nightly accuracy CI",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32571,
+          "created_at": "2026-07-27T21:27:21Z",
+          "title": "perf(kimi-k3): KDA MTP verify -8.6% at production, retire padding blocks",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32586,
+          "created_at": "2026-07-27T23:50:52Z",
+          "title": "docs(cookbook): mark every Kimi-K3 cell in-progress; land Playground \"Switch base\" on the configurator",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32592,
+          "created_at": "2026-07-28T01:33:27Z",
+          "title": "docs(cookbook): update Kimi-K3 GB200 recipes from measured 4x4 runs",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32593,
+          "created_at": "2026-07-28T01:43:48Z",
+          "title": "[Kernel] Enable Helion backend for Kimi Delta-Attention",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32604,
+          "created_at": "2026-07-28T03:21:10Z",
+          "title": "[NPU] Day0 Support Kimi-K3 on 910C",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32617,
+          "created_at": "2026-07-28T05:20:44Z",
+          "title": "[Kimi K3] Support parser auto-detection",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32624,
+          "created_at": "2026-07-28T07:03:39Z",
+          "title": "Add TP16/32 support for K3 fused KDA decode",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32626,
+          "created_at": "2026-07-28T07:23:20Z",
+          "title": "[AMD] Add Kimi K3 ROCm 7.2 nightly image",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32627,
+          "created_at": "2026-07-28T07:36:19Z",
+          "title": "[AMD] Add Kimi K3 ROCm 7.2 nightly image",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32630,
+          "created_at": "2026-07-28T08:35:02Z",
+          "title": "[AMD][Not-Merge]: torch fallbacks for top-k/top-p renorm so DSPARK/DFLASH works on ROCm",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32643,
+          "created_at": "2026-07-28T10:34:50Z",
+          "title": "[AMD] Add Kimi K3 ROCm 7.2 nightly image",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32650,
+          "created_at": "2026-07-28T11:54:44Z",
+          "title": "Use parameterized SiTU for FlashInfer MXFP4",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32661,
+          "created_at": "2026-07-28T13:55:33Z",
+          "title": "docs(kimi-k3): clarify VLM compatibility",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32664,
+          "created_at": "2026-07-28T15:00:02Z",
+          "title": "fix(kimi-k3): named persistent symmetric buffers for the fused collectives",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32677,
+          "created_at": "2026-07-28T20:19:05Z",
+          "title": "fix(kimi-k3): set reasoning_default=always to stop think-channel leaking into visible output",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32699,
+          "created_at": "2026-07-29T00:25:40Z",
+          "title": "perf(kimi-k3): fuse MoE-front prep (route + trtllm pack + mxfp8 quant) into one launch",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32732,
+          "created_at": "2026-07-29T06:36:02Z",
+          "title": "[P/D disagg] Support decode radix cache for mamba/SSM hybrid models (KDA/MLA)",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32757,
+          "created_at": "2026-07-29T09:03:01Z",
+          "title": "Fix Kimi K3 reasoning leak in the Responses API",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32760,
+          "created_at": "2026-07-29T09:40:44Z",
+          "title": "docker: add Kimi K3 images",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32761,
+          "created_at": "2026-07-29T09:48:19Z",
+          "title": "fix(kimi-k3): subtract generation stub tokens from cached_tokens report",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32764,
+          "created_at": "2026-07-29T10:22:21Z",
+          "title": "perf(kimi-k3): free the gemm_ag producer grid from the AR push-counter array",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32770,
+          "created_at": "2026-07-29T11:11:07Z",
+          "title": "perf(kimi-k3): fork side streams after the main-stream kernel, not before",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32778,
+          "created_at": "2026-07-29T12:15:43Z",
+          "title": "feat(kimi-k3): run native MXFP4 MoE with humming for hopper",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32796,
+          "created_at": "2026-07-29T17:21:36Z",
+          "title": "[AMD] Kimi K3 DCP",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32812,
+          "created_at": "2026-07-29T21:20:47Z",
+          "title": "refactor(kimi-k3): put the gemm_ar kernels back in-tree and fold the PTX headers into their consumers",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32823,
+          "created_at": "2026-07-29T22:38:29Z",
+          "title": "perf(kimi-k3): optimize KDA MTP ns0 memory path",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32828,
+          "created_at": "2026-07-29T23:29:31Z",
+          "title": "[Kimi] Support DCP + DSpark (ported from kimi-k3 branch)",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32834,
+          "created_at": "2026-07-30T00:09:28Z",
+          "title": "[docs] Kimi-K3: widen the H200 High-Throughput recipe to 4x8 TP32/EP32",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32835,
+          "created_at": "2026-07-30T00:09:47Z",
+          "title": "[docs] Rotate popular models on the landing pages, lead the Cookbook nav with Kimi",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32858,
+          "created_at": "2026-07-30T03:03:39Z",
+          "title": "Fix DCP KV head mapping for GQA models",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32870,
+          "created_at": "2026-07-30T03:24:21Z",
+          "title": "[AMD] Add MFMA decode GEMM for gfx942/gfx950",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32880,
+          "created_at": "2026-07-30T03:51:27Z",
+          "title": "Bound prefill delayer all-branch delay and decay the max_prefill_bs high-watermark",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32890,
+          "created_at": "2026-07-30T06:04:59Z",
+          "title": "feat(kernels): port standalone Kimi K3 kernels",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32915,
+          "created_at": "2026-07-30T08:59:28Z",
+          "title": "Fix --hicache-size allocating ~2x host memory on hybrid Mamba",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32940,
+          "created_at": "2026-07-30T14:11:03Z",
+          "title": "Fix Kimi-K3 FP8 DSPARK verification performance",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32954,
+          "created_at": "2026-07-30T18:18:48Z",
+          "title": "[Kernel] cutedsl_bf16_gemm: trailing cluster barrier for 2-CTA TGV kernel exit (#32907)",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32972,
+          "created_at": "2026-07-30T22:43:33Z",
+          "title": "[unified-memory] Let Kimi-Linear use the paged MLA attention backends",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32974,
+          "created_at": "2026-07-30T23:46:51Z",
+          "title": "[AMD] Enable Mori-EP on kimi-k3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32980,
+          "created_at": "2026-07-31T00:39:19Z",
+          "title": "[AMD] Enable ReplaySSM speculative decode on ROCm",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 32997,
+          "created_at": "2026-07-31T02:40:50Z",
+          "title": "[PD] mori: support DCP KV relayout in the moriio transfer backend",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33003,
+          "created_at": "2026-07-31T03:10:18Z",
+          "title": "fix(kimi-k3): neutralize a literal image placeholder in user text",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33017,
+          "created_at": "2026-07-31T06:06:32Z",
+          "title": "[Kimi K3] Add reasoning parser",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33018,
+          "created_at": "2026-07-31T06:06:55Z",
+          "title": "[Kimi K3] Add tool-call parser",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33019,
+          "created_at": "2026-07-31T06:07:05Z",
+          "title": "[Kimi K3] Add structural tool constraints",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33020,
+          "created_at": "2026-07-31T06:07:11Z",
+          "title": "[Kimi K3] Support parser auto-detection",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33025,
+          "created_at": "2026-07-31T06:15:14Z",
+          "title": "[Kimi K3] Add reasoning, tool-call, and OpenAI serving support",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33027,
+          "created_at": "2026-07-31T06:35:33Z",
+          "title": "perf(kimi-k3): enable TP16 tiny GEMMs",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33037,
+          "created_at": "2026-07-31T07:39:12Z",
+          "title": "[Fix] Disable --enable-symm-mem under CUDA graphs on Kimi hybrid models",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33038,
+          "created_at": "2026-07-31T07:42:28Z",
+          "title": "Updated b200 kimi-k3 cookbook",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33041,
+          "created_at": "2026-07-31T07:54:22Z",
+          "title": "fix(kimi-k3): support canonical DCP decode offload to Mooncake L3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33043,
+          "created_at": "2026-07-31T08:15:57Z",
+          "title": "Support PD disaggregation with DCP + DSPARK",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33060,
+          "created_at": "2026-07-31T10:43:47Z",
+          "title": "[Kimi-K3] Avoid per-page D2H sync in large lazy-compaction batches",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33066,
+          "created_at": "2026-07-31T11:44:55Z",
+          "title": "Replace Kimi K3 DeepGEMM patch with 0.1.5.post1",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33069,
+          "created_at": "2026-07-31T12:21:47Z",
+          "title": "[Kimi-K3] Add direct-final NVLS Query publication",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33070,
+          "created_at": "2026-07-31T12:21:49Z",
+          "title": "[Kimi-K3] Share replicated-Q weight storage",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33071,
+          "created_at": "2026-07-31T12:21:52Z",
+          "title": "[Kimi-K3] Enable fused KDA decode for TP4",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33072,
+          "created_at": "2026-07-31T12:21:55Z",
+          "title": "[Kimi-K3] Avoid temporal-state copies on prefix restore",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33073,
+          "created_at": "2026-07-31T12:21:57Z",
+          "title": "[Kimi-K3] Fuse NVIDIA KDA prefill staging",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33082,
+          "created_at": "2026-07-31T14:20:27Z",
+          "title": "[Docs] Add DeepSeek-V4 Flash Official (0731) recipe",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33083,
+          "created_at": "2026-07-31T14:24:51Z",
+          "title": "[Docs] Add DeepSeek-V4 Flash Official (0731) recipe",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33092,
+          "created_at": "2026-07-31T16:18:06Z",
+          "title": "Bump FlashInfer to 0.6.16",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33097,
+          "created_at": "2026-07-31T17:38:36Z",
+          "title": "Fix Kimi K3 partial XTML marker leakage",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33112,
+          "created_at": "2026-07-31T20:28:31Z",
+          "title": "[Feat] DCP + HiCache L2 Support (ported from kimi-k3)",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33129,
+          "created_at": "2026-07-31T22:38:51Z",
+          "title": "Revert \"Replace Kimi K3 DeepGEMM patch with 0.1.5.post1\"",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33132,
+          "created_at": "2026-07-31T23:12:23Z",
+          "title": "[Kimi-K3] Fail fast when FlashInfer kernel prerequisites are missing",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33141,
+          "created_at": "2026-07-31T23:37:55Z",
+          "title": "Revert \"Revert \"Replace Kimi K3 DeepGEMM patch with 0.1.5.post1\"\"",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33143,
+          "created_at": "2026-07-31T23:45:39Z",
+          "title": "Replace Kimi K3 DeepGEMM patch with 0.1.5.post1",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33149,
+          "created_at": "2026-08-01T00:54:37Z",
+          "title": "fix(kimi-k3): align kimi-k3 branch with DCP + DSpark fix and cleanup",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33183,
+          "created_at": "2026-08-01T06:29:02Z",
+          "title": "Harden Kimi K3 parser edge cases",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33192,
+          "created_at": "2026-08-01T09:15:26Z",
+          "title": "[Kimi K3] Keep native tool-call format when constraints fail",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33206,
+          "created_at": "2026-08-01T15:15:39Z",
+          "title": "fix(sampler): abort requests with fully-NaN logits instead of sampling garbage (#33187)",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 33222,
+          "created_at": "2026-08-01T22:35:00Z",
+          "title": "[Kernel] Add split-K tactics to CuTe DSL TGV BF16 GEMM for large-K small-N shapes",
+          "model_bot_attribution_count": 0
+        }
+      ]
+    },
+    "vllm-project/vllm-ascend": {
+      "pr_count": 17,
+      "limit_reached": false,
+      "prs": [
+        {
+          "number": 12950,
+          "created_at": "2026-07-27T15:17:19Z",
+          "title": "[Feature][v0.26.0rc] Support Kimi K3 on Ascend",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 12951,
+          "created_at": "2026-07-27T15:17:23Z",
+          "title": "[Feature][v0.23.0] Support Kimi K3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 12952,
+          "created_at": "2026-07-27T15:19:02Z",
+          "title": "[Doc][Model] Add Kimi-K3 deployment guide",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 12953,
+          "created_at": "2026-07-27T15:38:10Z",
+          "title": "[Doc][Model] Fix Kimi-K3 openEuler image tag",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13036,
+          "created_at": "2026-07-29T01:42:01Z",
+          "title": "add kimi k3 a2 deploy guide",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13037,
+          "created_at": "2026-07-29T01:56:40Z",
+          "title": "[Doc] add Kimi K3 A2 deployment guide",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13041,
+          "created_at": "2026-07-29T03:01:24Z",
+          "title": "[Doc][Model] Update Kimi-K3 deployment configuration",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13065,
+          "created_at": "2026-07-29T07:56:58Z",
+          "title": "[Feature] Kimi DSpark GQA",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13071,
+          "created_at": "2026-07-29T08:57:31Z",
+          "title": "[Feature] test Kimi3 mla dspark",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13094,
+          "created_at": "2026-07-29T10:55:06Z",
+          "title": "[v0.23.0][Doc] Translated Doc files 2026-07-29",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13143,
+          "created_at": "2026-07-30T03:53:48Z",
+          "title": "[Doc][Misc] Update Kimi-K3 deployment configurations",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13225,
+          "created_at": "2026-07-31T01:39:15Z",
+          "title": "feat(attention): add Kimi K3 MLA C8 support on A3",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13277,
+          "created_at": "2026-07-31T09:29:21Z",
+          "title": "[Feature][v0.26.0rc] Support Kimi K3 MLA DSpark speculative decoding on Ascend",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13283,
+          "created_at": "2026-07-31T10:03:52Z",
+          "title": "[v0.23.0][Doc] Translated Doc files 2026-07-31",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13286,
+          "created_at": "2026-07-31T10:48:24Z",
+          "title": "[Feat][Model] Enable Kimi K3 A5 C8 quantization",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13315,
+          "created_at": "2026-08-01T02:49:43Z",
+          "title": "[Feature][WIP][Kernel] Kimi K3 DSpark three-operator precision investigation",
+          "model_bot_attribution_count": 0
+        },
+        {
+          "number": 13323,
+          "created_at": "2026-08-01T10:29:04Z",
+          "title": "[Performance][Ops] Fuse Kimi KDA RMSNorm and sigmoid gate",
+          "model_bot_attribution_count": 0
+        }
+      ]
+    }
+  },
+  "domain_histogram": {
+    "gmail.com": 62,
+    "users.noreply.github.com": 50,
+    "amd.com": 35,
+    "qq.com": 25,
+    "radixark.ai": 16,
+    "inferact.ai": 14,
+    "antgroup.com": 11,
+    "openai.com": 10,
+    "icloud.com": 9,
+    "bugenzhao.com": 8,
+    "cursor.com": 8,
+    "nvidia.com": 6,
+    "rogerw.io": 6,
+    "yahoo.com.sg": 6,
+    "163.com": 5,
+    "periodiclabs.ai": 5,
+    "outlook.com": 4,
+    "126.com": 3,
+    "bytedance.com": 3,
+    "embeddedllm.com": 3,
+    "meta.com": 3,
+    "modal.com": 3,
+    "kingsoft.com": 2,
+    "msh.team": 2,
+    "redhat.com": 2,
+    "ucla.edu": 2,
+    "umich.edu": 2,
+    "advisori.de": 1,
+    "aiand.com": 1,
+    "archtech.gr": 1,
+    "illinois.edu": 1,
+    "intel.com": 1,
+    "jetd.one": 1,
+    "kebe7jun.com": 1,
+    "mistral.ai": 1,
+    "openinnovation.ai": 1,
+    "oracle.com": 1,
+    "qiuzhi.com": 1,
+    "roblox.com": 1,
+    "sigsonic.com": 1,
+    "smci355-ccs-aus-g12-22.cs-aus.dcgpu": 1,
+    "z.ai": 1
+  },
+  "flagged_prs": [
+    {
+      "repo": "vllm-project/vllm",
+      "number": 50228,
+      "reasons": [
+        "moonshot_domain_commit_email"
+      ]
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "number": 50543,
+      "reasons": [
+        "moonshot_domain_commit_email"
+      ]
+    }
+  ]
+}

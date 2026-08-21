@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "snapshot_as_of": "2026-08-19",
+  "date_basis": "commit blocks use author-local calendar date; K3 is point-in-time GitHub PR metadata",
+  "partial_day": true,
+  "partial_month": "2026-08",
+  "miner_revision": "1ad846a2cf699c59ccc3587e89da00a6f9fb2e6e",
+  "artifacts": {
+    "github": {
+      "path": "data/github-2026-08-19",
+      "retrieved_at_utc": "2026-08-19T15:17:03Z",
+      "run_manifest": "data/github-2026-08-19/RUN.json"
+    },
+    "gitcode": {
+      "path": "data/gitcode-2026-08-19",
+      "retrieved_at_utc": "2026-08-19T15:17:03Z",
+      "run_manifest": "data/gitcode-2026-08-19/RUN.json"
+    },
+    "k3_status": {
+      "path": "k3-adaptation/snapshots/2026-08-19.json",
+      "retrieved_at_utc": "2026-08-19T15:36:25Z",
+      "fixed_creation_window": [
+        "2026-07-26",
+        "2026-08-01"
+      ],
+      "fixed_case_prs": 17
+    }
+  },
+  "reconciliation": {
+    "human_readable": "data/UPDATE-2026-08-19.md",
+    "hash_level": "data/UPDATE-2026-08-19.json"
+  }
+}

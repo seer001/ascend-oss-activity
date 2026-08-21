@@ -1,0 +1,16 @@
+{
+  "date": "2026-08-05",
+  "query": "Kimi-K3 (raw full-text PR search, limit 300)",
+  "repos": {
+    "vllm-project/vllm": 140,
+    "sgl-project/sglang": 123,
+    "vllm-project/vllm-ascend": 27
+  },
+  "total_raw_matches": 290,
+  "sglang_pr_32604": {
+    "mergedAt": null,
+    "state": "OPEN",
+    "title": "[NPU] Day0 Support Kimi-K3 on 910C",
+    "updatedAt": "2026-07-28T03:21:58Z"
+  }
+}

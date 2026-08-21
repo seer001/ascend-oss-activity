@@ -1,0 +1,32 @@
+{
+  "upload_type": "dataset",
+  "title": "Ascend OSS Engineering Activity: A Calibrated, Pseudonymized Dataset of Public Engineering Activity around Huawei Ascend and CANN",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Seer, Jin Chian",
+      "affiliation": "Research Institute for Democracy, Society, and Emerging Technology (DSET)",
+      "orcid": "0009-0007-7116-0449"
+    }
+  ],
+  "description": "<p>This dataset measures <strong>publicly visible engineering activity</strong> around Huawei Ascend and CANN. It does not measure hardware performance, production readiness, code quality, or the causal effect of export controls.</p><p>It contains four separately reported evidence blocks:</p><ul><li><strong>Heim calibration.</strong> An independent recomputation, over a fixed author-date window (2025-04-01 to 2026-03-31), of the public GitHub commit counts published by Lennart Heim on 2026-03-31. The recomputation finds 2,685 <code>vllm-ascend</code> commits against Heim's approximately 2,420, and a narrow Huawei-domain <code>triton-ascend</code> count of 301 (frozen 2026-07-10) and 302 (dated 2026-08-19) against Heim's approximately 300.</li><li><strong>GitHub dated observation.</strong> 11,265 rows across eight declared repository rules, observed through a partial 2026-08-19 cutoff, with exact source SHAs recorded.</li><li><strong>GitCode extension.</strong> Default-branch histories of three selected CANN operator repositories on GitCode, a workstream outside the GitHub frame: 8,283 commits in the 2026-08-19 observation, of which 6,547 of 7,562 non-merge, non-automation commits (86.6%) touch declared core implementation roots. A frozen 2026-07-10 observation of 6,889 commits is retained separately.</li><li><strong>Kimi K3 case.</strong> Seventeen manually classified Ascend/NPU-targeted pull requests from a bounded launch window (created 2026-07-26 to 2026-08-01), with dated status snapshots on 2026-08-05, 2026-08-08, and 2026-08-19.</li></ul><p><strong>Privacy.</strong> Every contributor row is pseudonymized rather than anonymous: author names and full email addresses are omitted, and each row retains only the email domain plus deterministic SHA-256 identity and name hashes. Commit subjects are redacted for embedded addresses. The hashes are linkable within the dataset by design, so that every published aggregate can be recomputed from the released rows.</p><p><strong>Reproducibility.</strong> The two collectors validate each clone's origin URL, reject shallow clones, and require an explicit as-of date. The checked-in 2026-08-19 GitCode live output and its fixed-SHA replay are byte-identical. Thirty-three frozen snapshot files are covered by SHA256SUMS, and the test suite recomputes the checked-in aggregates from the checked-in rows.</p><p><strong>Boundaries.</strong> Commit or pull-request volume is not hardware speed, software quality, or production deployment. A corporate email domain is a conservative observed attribution signal, not an employment census. Same-day launch-window timing is consistent with pre-release coordination but does not establish who directed the work. The GitHub and GitCode totals are different sampling frames and are never added, divided, or used to rank platforms.</p><p><strong>Licensing.</strong> Code is released under the MIT License; analysis text and snapshot data files are released under CC BY 4.0. Snapshot records are derived from public git and GitHub metadata; upstream repository licenses continue to govern upstream code.</p>",
+  "keywords": [
+    "Huawei Ascend",
+    "CANN",
+    "AI accelerators",
+    "open-source software ecosystems",
+    "commit mining",
+    "repository mining",
+    "export controls",
+    "technology policy",
+    "research replication",
+    "GitCode",
+    "vLLM",
+    "Triton",
+    "pseudonymized data"
+  ],
+  "notes": "Retrieval for the dated observations occurred during 2026-08-19, so the August 19 day and the August monthly buckets are partial observations. Dated live observations are full recomputations, not append-only deltas: a later moving ref can make an older author-dated commit newly reachable. See data/UPDATE-2026-08-19.md before interpreting any difference between the frozen and dated observations as new work."
+}

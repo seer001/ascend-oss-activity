@@ -1,0 +1,192 @@
+{
+  "date": "2026-08-19",
+  "retrieved_at_utc": "2026-08-19T15:36:25Z",
+  "query": "Kimi-K3 (raw full-text PR search, limit 300)",
+  "repos": {
+    "vllm-project/vllm": {
+      "raw_matches": 271,
+      "limit_reached": false
+    },
+    "sgl-project/sglang": {
+      "raw_matches": 288,
+      "limit_reached": false
+    },
+    "vllm-project/vllm-ascend": {
+      "raw_matches": 70,
+      "limit_reached": false
+    }
+  },
+  "total_raw_matches": 629,
+  "case_prs": [
+    {
+      "closedAt": null,
+      "createdAt": "2026-07-27T15:29:46Z",
+      "mergedAt": null,
+      "number": 32544,
+      "state": "OPEN",
+      "title": "[NPU][Kimi] Support Kimi-K3 on NPU",
+      "updatedAt": "2026-07-27T21:14:12Z",
+      "repo": "sgl-project/sglang"
+    },
+    {
+      "closedAt": null,
+      "createdAt": "2026-07-28T03:21:10Z",
+      "mergedAt": null,
+      "number": 32604,
+      "state": "OPEN",
+      "title": "[NPU] Day0 Support Kimi-K3 on 910C",
+      "updatedAt": "2026-07-28T03:21:58Z",
+      "repo": "sgl-project/sglang"
+    },
+    {
+      "closedAt": "2026-07-31T03:10:16Z",
+      "createdAt": "2026-07-27T15:17:19Z",
+      "mergedAt": "2026-07-31T03:10:16Z",
+      "number": 12950,
+      "state": "MERGED",
+      "title": "[Feature][v0.26.0rc] Support Kimi K3 on Ascend",
+      "updatedAt": "2026-07-31T03:10:16Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-07-30T13:09:23Z",
+      "createdAt": "2026-07-27T15:17:23Z",
+      "mergedAt": null,
+      "number": 12951,
+      "state": "CLOSED",
+      "title": "[Feature][v0.23.0] Support Kimi K3",
+      "updatedAt": "2026-07-30T13:09:23Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-07-27T15:24:40Z",
+      "createdAt": "2026-07-27T15:19:02Z",
+      "mergedAt": "2026-07-27T15:24:40Z",
+      "number": 12952,
+      "state": "MERGED",
+      "title": "[Doc][Model] Add Kimi-K3 deployment guide",
+      "updatedAt": "2026-07-29T06:25:30Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-07-27T15:57:21Z",
+      "createdAt": "2026-07-27T15:38:10Z",
+      "mergedAt": "2026-07-27T15:57:21Z",
+      "number": 12953,
+      "state": "MERGED",
+      "title": "[Doc][Model] Fix Kimi-K3 openEuler image tag",
+      "updatedAt": "2026-07-27T15:57:21Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-07-29T01:52:44Z",
+      "createdAt": "2026-07-29T01:42:01Z",
+      "mergedAt": null,
+      "number": 13036,
+      "state": "CLOSED",
+      "title": "add kimi k3 a2 deploy guide",
+      "updatedAt": "2026-07-29T01:55:37Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-07-29T02:26:48Z",
+      "createdAt": "2026-07-29T01:56:40Z",
+      "mergedAt": "2026-07-29T02:26:48Z",
+      "number": 13037,
+      "state": "MERGED",
+      "title": "[Doc] add Kimi K3 A2 deployment guide",
+      "updatedAt": "2026-07-29T02:42:44Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-07-30T02:20:08Z",
+      "createdAt": "2026-07-29T03:01:24Z",
+      "mergedAt": null,
+      "number": 13041,
+      "state": "CLOSED",
+      "title": "[Doc][Model] Update Kimi-K3 deployment configuration",
+      "updatedAt": "2026-07-30T02:20:08Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-08-11T01:56:00Z",
+      "createdAt": "2026-07-29T07:56:58Z",
+      "mergedAt": null,
+      "number": 13065,
+      "state": "CLOSED",
+      "title": "[Feature] Kimi DSpark GQA",
+      "updatedAt": "2026-08-11T01:56:19Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-08-03T08:13:57Z",
+      "createdAt": "2026-07-29T08:57:31Z",
+      "mergedAt": null,
+      "number": 13071,
+      "state": "CLOSED",
+      "title": "[Feature] test Kimi3 mla dspark",
+      "updatedAt": "2026-08-03T08:13:58Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-07-30T12:24:33Z",
+      "createdAt": "2026-07-30T03:53:48Z",
+      "mergedAt": "2026-07-30T12:24:33Z",
+      "number": 13143,
+      "state": "MERGED",
+      "title": "[Doc][Misc] Update Kimi-K3 deployment configurations",
+      "updatedAt": "2026-07-30T12:24:33Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": null,
+      "createdAt": "2026-07-31T01:39:15Z",
+      "mergedAt": null,
+      "number": 13225,
+      "state": "OPEN",
+      "title": "[Feature] feat(attention): add Kimi K3 MLA C8 support on A3",
+      "updatedAt": "2026-08-19T02:51:00Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-08-12T07:42:53Z",
+      "createdAt": "2026-07-31T09:29:21Z",
+      "mergedAt": "2026-08-12T07:42:52Z",
+      "number": 13277,
+      "state": "MERGED",
+      "title": "[Feature][v0.26.0rc] Support Kimi K3 MLA DSpark speculative decoding on Ascend",
+      "updatedAt": "2026-08-12T16:14:22Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": null,
+      "createdAt": "2026-07-31T10:48:24Z",
+      "mergedAt": null,
+      "number": 13286,
+      "state": "OPEN",
+      "title": "[Feat][Model] Enable Kimi K3 A5 C8 quantization",
+      "updatedAt": "2026-08-19T09:18:01Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-08-12T09:40:25Z",
+      "createdAt": "2026-08-01T02:49:43Z",
+      "mergedAt": null,
+      "number": 13315,
+      "state": "CLOSED",
+      "title": "[Feature][WIP][Kernel] Kimi K3 DSpark three-operator precision investigation",
+      "updatedAt": "2026-08-12T09:40:25Z",
+      "repo": "vllm-project/vllm-ascend"
+    },
+    {
+      "closedAt": "2026-08-13T08:21:25Z",
+      "createdAt": "2026-08-01T10:29:04Z",
+      "mergedAt": null,
+      "number": 13323,
+      "state": "CLOSED",
+      "title": "[Performance][Ops] Fuse Kimi KDA RMSNorm and sigmoid gate",
+      "updatedAt": "2026-08-13T08:21:25Z",
+      "repo": "vllm-project/vllm-ascend"
+    }
+  ]
+}

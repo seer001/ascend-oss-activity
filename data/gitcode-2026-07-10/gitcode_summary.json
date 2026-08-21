@@ -1,0 +1,202 @@
+{
+  "as_of": "2026-07-10",
+  "date_basis": "author_date",
+  "privacy_note": "Author name and email fields are omitted. Identity and commit hashes are linkable pseudonyms, not anonymous identifiers.",
+  "ref": "master",
+  "repositories": {
+    "catlass": {
+      "author_date_range": [
+        "2025-01-22",
+        "2026-07-10"
+      ],
+      "core_path_commits": 220,
+      "core_path_share": 0.506912,
+      "domain_tiers": {
+        "automation": {
+          "commits": 37,
+          "share": 0.07839
+        },
+        "huawei_domain": {
+          "commits": 285,
+          "share": 0.603814
+        },
+        "other": {
+          "commits": 69,
+          "share": 0.146186
+        },
+        "partner_domain": {
+          "commits": 81,
+          "share": 0.17161
+        }
+      },
+      "monthly_counts": {
+        "2025-01": 2,
+        "2025-02": 2,
+        "2025-03": 14,
+        "2025-04": 21,
+        "2025-05": 28,
+        "2025-06": 29,
+        "2025-07": 12,
+        "2025-08": 13,
+        "2025-09": 33,
+        "2025-10": 36,
+        "2025-11": 32,
+        "2025-12": 28,
+        "2026-01": 23,
+        "2026-02": 9,
+        "2026-03": 38,
+        "2026-04": 32,
+        "2026-05": 40,
+        "2026-06": 72,
+        "2026-07": 8
+      },
+      "non_merge_non_automation_commits": 434,
+      "origin_url": "https://gitcode.com/cann/catlass.git",
+      "ref": "master",
+      "resolved_sha": "a75e2efed064bcab81418aee8584092bd293fe02",
+      "total_commits": 472,
+      "unique_pseudonymous_author_identities": 80
+    },
+    "ops-math": {
+      "author_date_range": [
+        "2025-09-25",
+        "2026-07-10"
+      ],
+      "core_path_commits": 1433,
+      "core_path_share": 0.815131,
+      "domain_tiers": {
+        "automation": {
+          "commits": 275,
+          "share": 0.134804
+        },
+        "huawei_domain": {
+          "commits": 1208,
+          "share": 0.592157
+        },
+        "other": {
+          "commits": 140,
+          "share": 0.068627
+        },
+        "partner_domain": {
+          "commits": 417,
+          "share": 0.204412
+        }
+      },
+      "monthly_counts": {
+        "2025-09": 43,
+        "2025-10": 43,
+        "2025-11": 79,
+        "2025-12": 204,
+        "2026-01": 236,
+        "2026-02": 198,
+        "2026-03": 300,
+        "2026-04": 260,
+        "2026-05": 226,
+        "2026-06": 331,
+        "2026-07": 120
+      },
+      "non_merge_non_automation_commits": 1758,
+      "origin_url": "https://gitcode.com/cann/ops-math.git",
+      "ref": "master",
+      "resolved_sha": "48a7281fcdc08acbb079622d278b0022da84d78a",
+      "total_commits": 2040,
+      "unique_pseudonymous_author_identities": 323
+    },
+    "ops-transformer": {
+      "author_date_range": [
+        "2025-09-28",
+        "2026-07-10"
+      ],
+      "core_path_commits": 3698,
+      "core_path_share": 0.908376,
+      "domain_tiers": {
+        "automation": {
+          "commits": 306,
+          "share": 0.069911
+        },
+        "huawei_domain": {
+          "commits": 3282,
+          "share": 0.749829
+        },
+        "other": {
+          "commits": 43,
+          "share": 0.009824
+        },
+        "partner_domain": {
+          "commits": 746,
+          "share": 0.170436
+        }
+      },
+      "monthly_counts": {
+        "2025-09": 16,
+        "2025-10": 135,
+        "2025-11": 129,
+        "2025-12": 169,
+        "2026-01": 348,
+        "2026-02": 513,
+        "2026-03": 729,
+        "2026-04": 615,
+        "2026-05": 586,
+        "2026-06": 811,
+        "2026-07": 326
+      },
+      "non_merge_non_automation_commits": 4071,
+      "origin_url": "https://gitcode.com/cann/ops-transformer.git",
+      "ref": "master",
+      "resolved_sha": "8a61e2b7c79be3e6c2e789be2e15dbfb694a6e9a",
+      "total_commits": 4377,
+      "unique_pseudonymous_author_identities": 505
+    }
+  },
+  "schema_version": 2,
+  "totals": {
+    "author_date_range": [
+      "2025-01-22",
+      "2026-07-10"
+    ],
+    "core_path_commits": 5351,
+    "core_path_share": 0.854383,
+    "domain_tiers": {
+      "automation": {
+        "commits": 618,
+        "share": 0.089708
+      },
+      "huawei_domain": {
+        "commits": 4775,
+        "share": 0.693134
+      },
+      "other": {
+        "commits": 252,
+        "share": 0.03658
+      },
+      "partner_domain": {
+        "commits": 1244,
+        "share": 0.180578
+      }
+    },
+    "monthly_counts": {
+      "2025-01": 2,
+      "2025-02": 2,
+      "2025-03": 14,
+      "2025-04": 21,
+      "2025-05": 28,
+      "2025-06": 29,
+      "2025-07": 12,
+      "2025-08": 13,
+      "2025-09": 92,
+      "2025-10": 214,
+      "2025-11": 240,
+      "2025-12": 401,
+      "2026-01": 607,
+      "2026-02": 720,
+      "2026-03": 1067,
+      "2026-04": 907,
+      "2026-05": 852,
+      "2026-06": 1214,
+      "2026-07": 454
+    },
+    "non_merge_non_automation_commits": 6263,
+    "total_commits": 6889,
+    "unique_pseudonymous_author_identities": 782
+  }
+}

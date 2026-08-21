@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "snapshot_as_of": "2026-08-19",
+  "retrieved_at_utc": "2026-08-19T15:17:03Z",
+  "retrieved_at_local": "2026-08-19T23:17:03+08:00",
+  "date_basis": "author_local_calendar_date",
+  "partial_day": true,
+  "miner": "mine_gitcode_activity.py",
+  "miner_revision": "1ad846a2cf699c59ccc3587e89da00a6f9fb2e6e",
+  "source_ref_manifest": "gitcode_summary.json#/repositories/*/resolved_sha",
+  "source_preflight": {
+    "origin_matches_allowlist": true,
+    "non_shallow": true,
+    "local_master_matches_origin_master": true,
+    "remote_tip_rechecked_after_run": true
+  },
+  "source_refs": {
+    "catlass": {"branch": "master", "sha": "769cd40a8716b28650b6bebb08db4834eea4462f"},
+    "ops-math": {"branch": "master", "sha": "eac5c213f9f635b31e4c9ad2d8ee333fd960347b"},
+    "ops-transformer": {"branch": "master", "sha": "f258f93332429a1948bf908c66b75d1048aa4508"}
+  },
+  "determinism_check": {
+    "kind": "live_then_fixed_sha_replay",
+    "result": "byte_identical",
+    "files_compared": 3
+  }
+}

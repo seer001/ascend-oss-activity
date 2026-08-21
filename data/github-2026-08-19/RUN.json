@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "snapshot_as_of": "2026-08-19",
+  "retrieved_at_utc": "2026-08-19T15:17:03Z",
+  "retrieved_at_local": "2026-08-19T23:17:03+08:00",
+  "date_basis": "author_local_calendar_date",
+  "partial_day": true,
+  "miner": "mine_commits.py",
+  "miner_revision": "1ad846a2cf699c59ccc3587e89da00a6f9fb2e6e",
+  "source_ref_manifest": "summary.json#/repos/*/ref_sha",
+  "source_preflight": {
+    "origin_matches_allowlist": true,
+    "non_shallow": true,
+    "local_default_branch_matches_remote_tip": true,
+    "remote_tip_rechecked_after_run": true
+  },
+  "source_refs": {
+    "llama.cpp": {"branch": "master", "sha": "3e7344670adf63ce28527a4d42f2d71eca27c41e"},
+    "lmdeploy": {"branch": "main", "sha": "1208bf006bbac69f1f012ceafeeeb70f623b632c"},
+    "pytorch": {"branch": "main", "sha": "2a7fc4adaedc492aef43535ddabf5e0ce98d220c"},
+    "sglang": {"branch": "main", "sha": "5f128395910dafb98c34083dc26cb790c7674d34"},
+    "torch_npu": {"branch": "master", "sha": "46b68ecebdf5e9256136345f2be95d0a117c049a"},
+    "transformers": {"branch": "main", "sha": "decba1d2ea4ed3cbf0495d1828abad4b2dba1846"},
+    "triton-ascend": {"branch": "main", "sha": "5cdbf25baa17a5a64dcad1fa83ed54a62cbba414"},
+    "vllm-ascend": {"branch": "main", "sha": "1ba7ee4e0319e5a0333ed0e50042b91823f49c26"}
+  },
+  "determinism_check": {
+    "kind": "same_pinned_refs_full_rerun",
+    "result": "byte_identical",
+    "files_compared": 9
+  }
+}

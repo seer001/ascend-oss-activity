@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: >-
+  If you use the measurements or data snapshots in this repository, please
+  cite it as below and include the snapshot dates of the figures you use.
+title: "Ascend OSS Engineering Activity"
+type: dataset
+authors:
+  - given-names: "Jin Chian"
+    family-names: "Seer"
+    affiliation: "Research Institute for Democracy, Society, and Emerging Technology (DSET)"
+    orcid: "https://orcid.org/0009-0007-7116-0449"
+repository-code: "https://github.com/seer001/ascend-oss-activity"
+version: "1.0.0"
+license:
+  - MIT
+  - CC-BY-4.0
+date-released: "2026-08-21"
+abstract: >-
+  Reproducible measurements of publicly visible engineering activity around
+  Huawei Ascend and CANN: a fixed-window calibration of Lennart Heim's 2026
+  GitHub commit counts, an extension to three CANN operator repositories on
+  GitCode, and a classified set of Kimi K3 launch-window support pull
+  requests with dated status snapshots. Code is MIT-licensed; analysis text
+  and data snapshots are CC BY 4.0.
