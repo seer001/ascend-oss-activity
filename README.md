@@ -1,5 +1,7 @@
 # Ascend OSS Engineering Activity
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22040904.svg)](https://doi.org/10.5281/zenodo.22040904)
+
 This repository measures **publicly visible engineering activity** around
 Huawei Ascend and CANN. It independently calibrates the public GitHub
 counts that Lennart Heim published on 2026-03-31
@@ -171,10 +173,19 @@ cohort.
 
 ## Citing
 
-See [CITATION.cff](CITATION.cff). Social-media sources (the Heim thread)
-and vendor pages are cited with access dates in the analysis documents;
-readers should rely on the dated snapshots checked into this repository
-rather than on live pages.
+See [CITATION.cff](CITATION.cff). Each release is archived on Zenodo:
+
+| DOI | Resolves to | Use it when |
+|---|---|---|
+| [10.5281/zenodo.22040904](https://doi.org/10.5281/zenodo.22040904) | Concept record, always the latest version | Referring to this dataset in general |
+| [10.5281/zenodo.22040905](https://doi.org/10.5281/zenodo.22040905) | Version 1.0.0 specifically | Citing figures you actually used, so a reader can retrieve the exact rows behind them |
+
+Cite the **version** DOI in published work. The figures in this repository are
+tied to dated snapshots, and a later version may revise them.
+
+Social-media sources (the Heim thread) and vendor pages are cited with access
+dates in the analysis documents; readers should rely on the dated snapshots
+checked into this repository rather than on live pages.
 
 ## License and data note
 
